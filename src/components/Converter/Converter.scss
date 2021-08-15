@@ -1,0 +1,31 @@
+.Conv_Wrapper {
+  height: calc(100vh - 5rem);
+  width: 100%;
+  max-width: 80rem;
+  margin: auto;
+  padding: 0 2rem;
+  .Conv_Block {
+    width: 100%;
+    height: 37.5rem;
+    background-color: #501f41;
+    border-radius: 1.75rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .Form {
+      max-width: 18.75rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .Submit,
+    .Conv_Result {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 1.125rem;
+    }
+  }
+}

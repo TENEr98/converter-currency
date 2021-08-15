@@ -1,0 +1,39 @@
+.Wrapper_Navbar {
+  width: 100%;
+  height: 5rem;
+  max-width: 80rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.125rem 2rem;
+  .Block_Navlinks {
+    width: 12.5rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    .Item {
+      width: 5rem;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .Navlink {
+        color: #fbfbfd;
+        text-decoration: none;
+      }
+      &.active,
+      &:hover {
+        transition: transform cubic-bezier(0.075, 0.82, 0.165, 1);
+        border-bottom: 1px solid #000;
+      }
+    }
+  }
+  .Base_Currency {
+    width: 6.75rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
