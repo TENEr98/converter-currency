@@ -3,7 +3,7 @@ Test-express24
 
 # Installation
 ```sh
-git clone https://github.com/TENEr98/converter-currency
+git clone https://github.com/TENEr98/converter-currency.git
 cd converter-currency
 ```
 
