@@ -23,7 +23,6 @@ const Converter = ({ baseCurr }) => {
         temp[0][4],
         temp[0][1]
       )
-      console.log(response)
       setResult({
         from: response.data.base,
         to: temp[0][4],
